@@ -27,7 +27,7 @@ class Bot(Parser):
 		REQUEST_KWARGS={
 		'proxy_url':'socks5://103.240.160.21:6667/'
 		}
-		updater = Updater('710118530:AAEhsvUrxHKCqgi2Lk9UIc5XGx_-57CUp5Q', request_kwargs=REQUEST_KWARGS)
+		updater = Updater('', request_kwargs=REQUEST_KWARGS)
 		dispatcher = updater.dispatcher
 
 
