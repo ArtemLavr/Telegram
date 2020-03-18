@@ -7,7 +7,7 @@ class Bot:
         proxy = {'https':'socks5h://103.111.183.17:1080'}
         REQUEST_KWARGS={
         'proxy_url': 'socks5h://103.111.183.17:1080',
-        # Optional, if you need authentication:
+        
         
         }
         updater = Updater('') # Токен API к Telegram
